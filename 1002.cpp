@@ -12,7 +12,6 @@ int main(void)
     for(i=0;i<strlen(k);i++){
       sum+=k[i]-48;
   }
-
   while (sum>0){
     p+=1;
     a[p]=sum%10;
