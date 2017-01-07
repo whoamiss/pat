@@ -1,15 +1,5 @@
 #include<stdio.h>
 #include <string.h>
-int strint(int i){
-	int k=1;
-	while (i/=10){
-		k++;
-	}
-	int j;
-	for(j=0;j<6-k;j++){
-		printf("%d",0);
-	}
-}
 int main(){
     int n,c;
     scanf("%d %d",&n,&c);
@@ -63,7 +53,6 @@ int main(){
 		}
 	}
 	for (i=0;i<n;i++){
-		strint(a[i].id);
-		printf("%d %s %d\n",a[i].id,a[i].name,a[i].grade);
+		printf("%06d %s %d\n",a[i].id,a[i].name,a[i].grade);
 	}
 }
