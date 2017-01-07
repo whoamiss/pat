@@ -17,7 +17,7 @@ int main(void)
 {
 	int m,n,temp=0,temp1=0;;
 	//scanf("%d %d",&m,&n);
-	m=1;n=11111;
+	m=1;n=10000;
 	int i=1;
 	while (k<n){
 		i++;
